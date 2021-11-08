@@ -1,5 +1,5 @@
 import math
-from players import HumanPlayer, RandomComputerPlayer, SmartComputerPlayer
+from players import HumanPlayer, RandomComputerPlayer, music,SmartComputerPlayer
 
 class TicTacToe:
     def __init__(self):
@@ -97,6 +97,7 @@ def play(game, x_player, o_player, print_game = True):
         
 
 if __name__ == '__main__':
+    music()
     tictactoe = TicTacToe()
     print("Select player1: \n 1p for Human player \n com for computer \n Tenet for impossible A.I :D")
     player1 = input()

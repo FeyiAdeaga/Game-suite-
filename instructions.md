@@ -41,3 +41,6 @@ The impossible AI is the Tenet mode in the prompt.
 The game asks the user for their choice of player 1 and player 2.
 
 Run the game from the terminal by inserting the command python game.py
+
+## Extension
+We added background sound to play while the program runs. This enhances homeliness on the game

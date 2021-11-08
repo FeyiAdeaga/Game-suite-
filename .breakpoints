@@ -1,11 +1,19 @@
 {
   "files": {
+    "Hangman/hangman.py": [
+      {
+        "id": "8837f23d-2c0f-4ad0-9799-d52a031b4ffd",
+        "line": 42,
+        "version": 2264,
+        "index": 1172
+      }
+    ],
     "Tic Tac Toe/game.py": [
       {
         "id": "3f969ac7-8f72-4598-89d3-10a2ef5f77fe",
         "line": 18,
-        "version": 2679,
-        "index": 566
+        "version": 2709,
+        "index": 572
       }
     ]
   }

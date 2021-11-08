@@ -1,6 +1,6 @@
 import csv
 import os
-from hangman_function import get_word, lives_visual_dict
+from hangman_function import get_word, lives_visual_dict, music
 
 file = open("wordbank.csv", "r")
 csv_reader = csv.reader(file)
@@ -62,4 +62,5 @@ def main():
     main_game()
 
 if __name__ == "__main__":
+    music()
     main()

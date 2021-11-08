@@ -1,5 +1,13 @@
 import random
 import math
+import pygame
+
+
+def music():
+    pygame.init()
+    pygame.mixer.music.load("POL-autumn-leaves-short.wav")
+    pygame.mixer.music.set_volume(0.1)
+    pygame.mixer.music.play(-1, 0.0)
 
 class Player:
 
