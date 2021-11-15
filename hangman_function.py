@@ -6,8 +6,6 @@ def music():
     pygame.mixer.music.load("POL-autumn-leaves-short.wav")
     pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play(-1, 0.0)
-    # soundObj = pygame.mixer.Sound("POL-autumn-leaves-short.wav")
-    # soundObj.play()
 
 
 def get_word(word_list):

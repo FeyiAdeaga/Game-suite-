@@ -1,14 +1,18 @@
 import csv
 import os
-from hangman_function import get_word, lives_visual_dict, music
-
-file = open("wordbank.csv", "r")
-csv_reader = csv.reader(file)
-word_list = []
+from hangman_function import get_word, lives_visual_dict
+from sound import music
 
 
-def main():
 
+
+def play_hangman():
+    os.system('clear')
+    music()
+    file = open("wordbank.csv", "r")
+    csv_reader = csv.reader(file)
+    word_list = []
+    
     for row  in csv_reader:
         for word in row:
             word_list.append(row)
@@ -62,5 +66,4 @@ def main():
     main_game()
 
 if __name__ == "__main__":
-    music()
-    main()
+    play_hangman()

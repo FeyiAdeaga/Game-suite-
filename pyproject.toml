@@ -7,6 +7,8 @@ authors = ["FeyisayoVictor <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 pygame = "^2.1.0"
+replit = "^3.2.4"
+replit-play = "^0.0.23"
 
 [tool.poetry.dev-dependencies]
 
